@@ -78,7 +78,7 @@ class DepthPerceptionNode(Node):
             valid = False
             z = float('nan')
 
-            if cls == 'gate':
+            if cls == '2':
                 column_depths = []
 
                 for u in range(x1, x2, 3):
